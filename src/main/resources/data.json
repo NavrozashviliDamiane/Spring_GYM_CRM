@@ -1,0 +1,64 @@
+{
+  "trainers": [
+    {
+      "userId": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "username": "john.doe",
+      "password": "password123",
+      "isActive": true,
+      "specialization": "Weightlifting"
+    },
+    {
+      "userId": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "username": "jane.smith",
+      "password": "pass123",
+      "isActive": true,
+      "specialization": "Yoga"
+    }
+  ],
+  "trainees": [
+    {
+      "userId": 3,
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "username": "alice.johnson",
+      "password": "abc123",
+      "isActive": true,
+      "dateOfBirth": "1990-05-15",
+      "address": "123 Main St"
+    },
+    {
+      "userId": 4,
+      "firstName": "Bob",
+      "lastName": "Brown",
+      "username": "bob.brown",
+      "password": "xyz456",
+      "isActive": true,
+      "dateOfBirth": "1985-10-20",
+      "address": "456 Elm St"
+    }
+  ],
+  "trainings": [
+    {
+      "id": 1,
+      "traineeId": 3,
+      "trainerId": 1,
+      "trainingName": "Weightlifting Basics",
+      "trainingType": "WEIGHT_TRAINING",
+      "trainingDate": "2022-02-10",
+      "trainingDuration": 60
+    },
+    {
+      "id": 2,
+      "traineeId": 4,
+      "trainerId": 2,
+      "trainingName": "Yoga for Beginners",
+      "trainingType": "YOGA",
+      "trainingDate": "2022-03-05",
+      "trainingDuration": 90
+    }
+  ]
+}
