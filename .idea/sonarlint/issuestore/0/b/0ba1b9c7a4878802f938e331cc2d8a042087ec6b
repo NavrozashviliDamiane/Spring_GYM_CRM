@@ -1,5 +1,18 @@
 
-_
-java:S1854"BRemove this useless assignment to local variable "traineeService".(áì °8Õ¿ÏâÛ1
-P
-java:S1481"3Remove this unused "traineeService" local variable.(áì °8â¿ÏâÛ1
+L	java:S106"+Replace this use of System.out by a logger.(²¯¨šùÿÿÿÿ8Èğ†•Ü1
+L	java:S106"+Replace this use of System.out by a logger.(àÿ’œûÿÿÿÿ8Êğ†•Ü1
+L	java:S106"+Replace this use of System.out by a logger.(ÔÁ±‚ùÿÿÿÿ8Ìğ†•Ü1
+L	java:S106 "+Replace this use of System.out by a logger.(µ§«‡şÿÿÿÿ8Îğ†•Ü1
+L	java:S106!"+Replace this use of System.out by a logger.(øª¸Ôÿÿÿÿÿ8Ğğ†•Ü1
+G	java:S106""+Replace this use of System.out by a logger.(£áÀ¼8Óğ†•Ü1
+L	java:S106#"+Replace this use of System.out by a logger.(ŞûÏøÿÿÿÿ8Üğ†•Ü1
+X
+java:S1128"6Remove this unused import 'org.example.model.Trainee'.(Ë¨‚ôúÿÿÿÿ8¾ëğ”Ü1
+T
+java:S1128"7Remove this unused import 'org.example.model.Training'.(“ú¤°8®ğ”Ü1
+X
+java:S1128";Remove this unused import 'org.example.storage.GymStorage'.( úñ8‚®ğ”Ü1
+[
+java:S1128	"?Remove this unused import 'org.example.util.UsernameGenerator'.(ğîÖ+8ƒ®ğ”Ü1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8„®ğ”Ü1

@@ -1,64 +1,52 @@
 {
-  "trainers": [
-    {
-      "userId": 1,
-      "firstName": "John",
-      "lastName": "Doe",
-      "username": "john.doe",
-      "password": "password123",
-      "isActive": true,
-      "specialization": "Weightlifting"
-    },
-    {
-      "userId": 2,
-      "firstName": "Jane",
-      "lastName": "Smith",
-      "username": "jane.smith",
-      "password": "pass123",
-      "isActive": true,
-      "specialization": "Yoga"
-    }
-  ],
   "trainees": [
     {
-      "userId": 3,
-      "firstName": "Alice",
-      "lastName": "Johnson",
-      "username": "alice.johnson",
-      "password": "abc123",
-      "isActive": true,
-      "dateOfBirth": "1990-05-15",
-      "address": "123 Main St"
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "username": "John.Doe",
+      "password": "randompassword1"
     },
     {
-      "userId": 4,
+      "id": 2,
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "username": "Alice.Smith",
+      "password": "randompassword2"
+    }
+  ],
+  "trainers": [
+    {
+      "id": 1,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "username": "Jane.Doe",
+      "password": "randompassword3"
+    },
+    {
+      "id": 2,
       "firstName": "Bob",
-      "lastName": "Brown",
-      "username": "bob.brown",
-      "password": "xyz456",
-      "isActive": true,
-      "dateOfBirth": "1985-10-20",
-      "address": "456 Elm St"
+      "lastName": "Johnson",
+      "username": "Bob.Johnson",
+      "password": "randompassword4"
     }
   ],
   "trainings": [
     {
       "id": 1,
-      "traineeId": 3,
+      "traineeId": 1,
       "trainerId": 1,
-      "trainingName": "Weightlifting Basics",
-      "trainingType": "WEIGHT_TRAINING",
-      "trainingDate": "2022-02-10",
-      "trainingDuration": 60
+      "date": "2024-02-19",
+      "duration": 60,
+      "location": "Gym A"
     },
     {
       "id": 2,
-      "traineeId": 4,
+      "traineeId": 2,
       "trainerId": 2,
-      "trainingName": "Yoga for Beginners",
-      "trainingType": "YOGA",
-      "trainingDate": "2022-03-05",
-      "trainingDuration": 90
+      "date": "2024-02-20",
+      "duration": 45,
+      "location": "Gym B"
     }
   ]
 }

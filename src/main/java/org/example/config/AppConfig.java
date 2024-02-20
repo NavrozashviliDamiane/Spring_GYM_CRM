@@ -1,62 +1,51 @@
 package org.example.config;
 
-import org.example.dao.TraineeDAO;
-import org.example.dao.TrainerDAO;
-import org.example.dao.TrainingDAO;
-import org.example.model.Trainee;
-import org.example.model.Trainer;
-import org.example.model.Training;
-import org.example.service.GymFacade;
-import org.example.service.TraineeService;
-import org.example.service.TrainerService;
-import org.example.service.TrainingService;
+import org.example.dao.*;
+import org.example.service.*;
+import org.example.storage.GymStorage;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
-import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
-import org.springframework.core.io.ClassPathResource;
-
-import java.util.Map;
-
 
 @Configuration
+@ComponentScan(basePackages = "org.example")
 @PropertySource("classpath:application.properties")
 public class AppConfig {
 
-
-
     @Bean
-    public TrainerDAO trainerDAO(Map<Integer, Trainer> trainerMap) {
-        return new TrainerDAO(trainerMap);
+    public GymStorage gymStorage() {
+        return new GymStorage();
     }
 
     @Bean
-    public TraineeDAO traineeDAO(Map<Integer, Trainee> traineeMap) {
-        return new TraineeDAO(traineeMap);
+    public TrainerDAO trainerDAO() {
+        return new TrainerDAOImpl();
     }
 
     @Bean
-    public TrainingDAO trainingDAO(Map<Integer, Training> trainingMap) {
-        return new TrainingDAO(trainingMap);
+    public TraineeDAO traineeDAO() {
+        return new TraineeDAOImpl();
     }
 
     @Bean
-    public GymFacade gymFacade(TraineeService traineeService, TrainerService trainerService, TrainingService trainingService) {
-        return new GymFacade(traineeService, trainerService, trainingService);
+    public TrainingDAO trainingDAO() {
+        return new TrainingDAOImpl();
     }
 
     @Bean
-    public TraineeService traineeService(TraineeDAO traineeDAO) {
-        return new TraineeService(traineeDAO);
+    public TrainerService trainerService() {
+        return new TrainerService();
     }
 
     @Bean
-    public TrainerService trainerService(TrainerDAO trainerDAO) {
-        return new TrainerService(trainerDAO);
+    public TraineeService traineeService() {
+        return new TraineeService();
     }
 
     @Bean
-    public TrainingService trainingService(TrainingDAO trainingDAO) {
-        return new TrainingService(trainingDAO);
+    public TrainingService trainingService() {
+        return new TrainingService();
     }
 }
+

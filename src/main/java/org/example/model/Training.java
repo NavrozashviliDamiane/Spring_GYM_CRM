@@ -12,7 +12,6 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Training {
-    private Integer id;
     private Integer traineeId;
     private Integer trainerId;
     private String trainingName;
@@ -20,7 +19,4 @@ public class Training {
     private LocalDate trainingDate;
     private Integer trainingDuration; // Duration in minutes
 
-    public Integer getId() {
-        return id;
-    }
 }
