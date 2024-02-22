@@ -1,15 +1,17 @@
 package org.example.service;
 
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.example.dao.TrainerDAO;
 import org.example.model.Trainer;
+import org.example.util.UsernameGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
 public class TrainerService {
+
+    private static final Logger logger = LogManager.getLogger(TrainerService.class);
 
     @Autowired
     private TrainerDAO trainerDAO;
@@ -19,16 +21,26 @@ public class TrainerService {
     }
 
     public void createTrainer(Trainer trainer) {
+        String username = UsernameGenerator.generateUsername(trainer.getFirstName(), trainer.getLastName(), trainer);
+        trainer.setUsername(username);
+
         trainerDAO.save(trainer);
+
+        logger.info("Trainer created: {}", trainer);
     }
 
     public void updateTrainer(Trainer trainer) {
         trainerDAO.update(trainer);
+        logger.info("Trainer updated: {}", trainer);
     }
 
     public void deleteTrainer(Integer id) {
-        trainerDAO.delete(id);
+        Trainer trainer = trainerDAO.findById(id);
+        if (trainer != null) {
+            trainerDAO.delete(id);
+            logger.info("Trainer deleted: {}", trainer);
+        } else {
+            logger.warn("Trainer with ID {} not found for deletion", id);
+        }
     }
-
-
 }

@@ -1,8 +1,11 @@
 package org.example.model;
 
 import lombok.*;
+import org.apache.logging.log4j.core.Logger;
 import org.example.util.PasswordGenerator;
 import org.example.util.UsernameGenerator;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 
 @Data
@@ -12,24 +15,18 @@ import org.example.util.UsernameGenerator;
 @AllArgsConstructor
 @NoArgsConstructor
 public class User {
-    private String firstName;
-    private String lastName;
-    private String username;
+    protected String firstName;
+    protected String lastName;
+    protected String username;
     private String password;
     private Boolean isActive;
+
 
     public User(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
-        generateUsername();
-        generatePassword();
+        this.password = PasswordGenerator.generatePassword();
     }
 
-    private void generateUsername() {
-        username = UsernameGenerator.generateUsername(firstName, lastName);
-    }
 
-    private void generatePassword() {
-        password = PasswordGenerator.generatePassword();
-    }
 }

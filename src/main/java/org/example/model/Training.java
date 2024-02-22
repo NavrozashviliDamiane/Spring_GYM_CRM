@@ -17,6 +17,6 @@ public class Training {
     private String trainingName;
     private TrainingType trainingType;
     private LocalDate trainingDate;
-    private Integer trainingDuration; // Duration in minutes
+    private Integer trainingDuration;
 
 }

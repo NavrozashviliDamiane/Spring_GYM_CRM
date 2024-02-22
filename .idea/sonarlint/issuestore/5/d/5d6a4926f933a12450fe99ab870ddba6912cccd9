@@ -1,3 +1,11 @@
 
+X
+java:S2696"6Make the enclosing method "static" or remove this set.(¡ÁıØúÿÿÿÿ8Âİ¢İÜ1
 W
-java:S1118":Add a private constructor to hide the implicit public one.(æ·¦8“…•Ü1
+java:S2209"5Change this instance-reference to a static reference.(¡ÁıØúÿÿÿÿ8®š¥İÜ1
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(—Ü­Ÿüÿÿÿÿ8½×ØÜ1
+e
+java:S6201"HReplace this instanceof check and cast with 'instanceof Trainer trainer'(í‘ó†8Ã×ØÜ1
+j
+java:S6201&"HReplace this instanceof check and cast with 'instanceof Trainee trainee'(øúˆúÿÿÿÿ8Ï×ØÜ1

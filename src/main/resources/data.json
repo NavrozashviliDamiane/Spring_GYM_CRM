@@ -1,52 +1,41 @@
 {
   "trainees": [
     {
-      "id": 1,
+      "userId": 1,
       "firstName": "John",
       "lastName": "Doe",
       "username": "John.Doe",
-      "password": "randompassword1"
+      "password": "randompassword1",
+      "dateOfBirth": "1990-01-01",
+      "address": "123 Main St"
     },
     {
-      "id": 2,
+      "userId": 2,
       "firstName": "Alice",
       "lastName": "Smith",
       "username": "Alice.Smith",
-      "password": "randompassword2"
+      "password": "randompassword2",
+      "dateOfBirth": "1995-05-15",
+      "address": "456 Elm St"
     }
   ],
   "trainers": [
     {
-      "id": 1,
+      "userId": 1,
       "firstName": "Jane",
       "lastName": "Doe",
       "username": "Jane.Doe",
-      "password": "randompassword3"
+      "password": "randompassword3",
+      "specialization": "Personal Training"
     },
     {
-      "id": 2,
+      "userId": 2,
       "firstName": "Bob",
       "lastName": "Johnson",
       "username": "Bob.Johnson",
-      "password": "randompassword4"
-    }
-  ],
-  "trainings": [
-    {
-      "id": 1,
-      "traineeId": 1,
-      "trainerId": 1,
-      "date": "2024-02-19",
-      "duration": 60,
-      "location": "Gym A"
-    },
-    {
-      "id": 2,
-      "traineeId": 2,
-      "trainerId": 2,
-      "date": "2024-02-20",
-      "duration": 45,
-      "location": "Gym B"
+      "password": "randompassword4",
+      "specialization": "CrossFit"
     }
   ]
+
 }

@@ -15,9 +15,12 @@ public class Trainee extends User {
     private String address;
     private Integer userId;
 
-    public Trainee(String firstName, String lastName, LocalDate dateOfBirth, String address) {
-        super(firstName, lastName); // Call the constructor of the parent class
+    public Trainee(String firstName, String lastName, LocalDate dateOfBirth, String address, Integer userId) {
+        super(firstName, lastName);
         this.dateOfBirth = dateOfBirth;
         this.address = address;
+        this.userId = userId;
+
     }
+
 }

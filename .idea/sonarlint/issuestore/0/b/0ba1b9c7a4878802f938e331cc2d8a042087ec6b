@@ -1,18 +1,40 @@
 
-L	java:S106"+Replace this use of System.out by a logger.(²¯¨šùÿÿÿÿ8Èğ†•Ü1
-L	java:S106"+Replace this use of System.out by a logger.(àÿ’œûÿÿÿÿ8Êğ†•Ü1
-L	java:S106"+Replace this use of System.out by a logger.(ÔÁ±‚ùÿÿÿÿ8Ìğ†•Ü1
-L	java:S106 "+Replace this use of System.out by a logger.(µ§«‡şÿÿÿÿ8Îğ†•Ü1
-L	java:S106!"+Replace this use of System.out by a logger.(øª¸Ôÿÿÿÿÿ8Ğğ†•Ü1
-G	java:S106""+Replace this use of System.out by a logger.(£áÀ¼8Óğ†•Ü1
-L	java:S106#"+Replace this use of System.out by a logger.(ŞûÏøÿÿÿÿ8Üğ†•Ü1
+m
+java:S1192!"KDefine a constant instead of duplicating this literal "Username: " 3 times.(»«»”şÿÿÿÿ8­ŒÚäÜ1
+t
+java:S1192"RDefine a constant instead of duplicating this literal "Strength Training" 3 times.(ñ¡†Õıÿÿÿÿ8˜ü”åÜ1
+d
+java:S1192"GDefine a constant instead of duplicating this literal "Name: " 5 times.(ıÊ®8òİ×äÜ1
+G	java:S106"+Replace this use of System.out by a logger.(‡šÅÁ8Ï”×äÜ1
+G	java:S106"+Replace this use of System.out by a logger.(ıÊ®8Ñ”×äÜ1
+L	java:S106 "+Replace this use of System.out by a logger.(¯÷‚Œûÿÿÿÿ8Ô”×äÜ1
+L	java:S106!"+Replace this use of System.out by a logger.(»«»”şÿÿÿÿ8×”×äÜ1
+G	java:S106#"+Replace this use of System.out by a logger.(¡ˆÅî8Û”×äÜ1
+G	java:S106)"+Replace this use of System.out by a logger.(‡šÅÁ8İ”×äÜ1
+G	java:S106*"+Replace this use of System.out by a logger.(¶æşó8à”×äÜ1
+L	java:S106+"+Replace this use of System.out by a logger.(ìÄüúÿÿÿÿ8ã”×äÜ1
+G	java:S106,"+Replace this use of System.out by a logger.(«àë¾8å”×äÜ1
+G	java:S106-"+Replace this use of System.out by a logger.( Ÿ¾š8é”×äÜ1
+G	java:S106/"+Replace this use of System.out by a logger.(¡ˆÅî8ë”×äÜ1
+L	java:S1067"+Replace this use of System.out by a logger.(ÌÄĞØøÿÿÿÿ8®Ş×äÜ1
+G	java:S1068"+Replace this use of System.out by a logger.(äøû—8±Ş×äÜ1
+L	java:S1069"+Replace this use of System.out by a logger.(İ¬Íöøÿÿÿÿ8ôŒÚäÜ1
+L	java:S106="+Replace this use of System.out by a logger.(äÚ’Õşÿÿÿÿ8â¿ÜäÜ1
+G	java:S106C"+Replace this use of System.out by a logger.(Ÿ²ë³8ÿÀçäÜ1
+G	java:S106D"+Replace this use of System.out by a logger.(É…Ø™8€ÁçäÜ1
+L	java:S106E"+Replace this use of System.out by a logger.(í¨¸ˆûÿÿÿÿ8ÁçäÜ1
+G	java:S106F"+Replace this use of System.out by a logger.(ùêÁâ8ƒÁçäÜ1
+L	java:S106G"+Replace this use of System.out by a logger.( ½é­üÿÿÿÿ8ƒÁçäÜ1
+L	java:S106I"+Replace this use of System.out by a logger.(×®å†øÿÿÿÿ8…ÁçäÜ1
+L	java:S106Z"+Replace this use of System.out by a logger.(«İòàùÿÿÿÿ8œ¦‡åÜ1
+G	java:S106["+Replace this use of System.out by a logger.(Ñ¥¡ô8¦‡åÜ1
+G	java:S106\"+Replace this use of System.out by a logger.(“¯¼8Ÿ¦‡åÜ1
+G	java:S106]"+Replace this use of System.out by a logger.(¤±Õ§8§¦‡åÜ1
+L	java:S106^"+Replace this use of System.out by a logger.(¡áÀóÿÿÿÿÿ8ª¦‡åÜ1
 X
-java:S1128"6Remove this unused import 'org.example.model.Trainee'.(Ë¨‚ôúÿÿÿÿ8¾ëğ”Ü1
-T
-java:S1128"7Remove this unused import 'org.example.model.Training'.(“ú¤°8®ğ”Ü1
-X
-java:S1128";Remove this unused import 'org.example.storage.GymStorage'.( úñ8‚®ğ”Ü1
+java:S1128";Remove this unused import 'org.example.storage.GymStorage'.( úñ8¯Ş•åÜ1
+\
+java:S1128	"?Remove this unused import 'org.example.util.PasswordGenerator'.(œë´×8°Ş•åÜ1
 [
-java:S1128	"?Remove this unused import 'org.example.util.UsernameGenerator'.(ğîÖ+8ƒ®ğ”Ü1
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8„®ğ”Ü1
+java:S1128
+"?Remove this unused import 'org.example.util.UsernameGenerator'.(ğîÖ+8²Ş•åÜ1

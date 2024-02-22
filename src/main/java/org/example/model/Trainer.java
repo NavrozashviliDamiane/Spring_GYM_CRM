@@ -14,8 +14,7 @@ public class Trainer extends User {
     private Integer userId;
 
     public Trainer(String firstName, String lastName, String specialization) {
-        super(firstName, lastName); // Call the constructor of the parent class
+        super(firstName, lastName);
         this.specialization = specialization;
     }
-
 }
