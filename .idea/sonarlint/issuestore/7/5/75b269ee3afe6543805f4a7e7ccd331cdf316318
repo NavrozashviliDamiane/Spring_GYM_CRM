@@ -1,3 +1,11 @@
 
+^
+java:S1128"ARemove this unused import 'org.apache.logging.log4j.core.Logger'.(×»”ğ8ğ€ÔËİ1
+\
+java:S1128"?Remove this unused import 'org.example.util.PasswordGenerator'.(œë´×8ò€ÔËİ1
 [
-java:S1128"?Remove this unused import 'org.example.util.UsernameGenerator'.(ğîÖ+8èÒÁäÜ1
+java:S1128"?Remove this unused import 'org.example.util.UsernameGenerator'.(ğîÖ+8ó€ÔËİ1
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8ó€ÔËİ1
+g
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8ô€ÔËİ1

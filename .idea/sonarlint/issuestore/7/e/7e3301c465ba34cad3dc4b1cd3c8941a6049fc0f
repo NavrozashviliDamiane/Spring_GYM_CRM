@@ -1,0 +1,11 @@
+
+n
+java:S1223!"LRename this method to prevent any misunderstanding or make it a constructor.(Õä»„ÿÿÿÿÿ8ûËÌ…İ1
+o	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õä»„ÿÿÿÿÿ8Î®Ì…İ1
+X	java:S125F"<This block of commented-out lines of code should be removed.(¬“ÁÎ8´ÁƒŞ1
+J
+java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8€Ù›ƒŞ1
+]
+java:S1128"@Remove this unused import 'org.apache.logging.log4j.LogManager'.(Ë”Ëé8º¯Ì…İ1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8¯´ÁƒŞ1

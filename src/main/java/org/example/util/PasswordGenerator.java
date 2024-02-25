@@ -1,5 +1,7 @@
 package org.example.util;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.apache.logging.log4j.Logger;
 import org.example.storage.GymStorage;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,19 +9,20 @@ import org.springframework.stereotype.Component;
 
 import java.util.Random;
 
-
+@Getter
+@Setter
 @Component
 public class PasswordGenerator {
 
-    private static Logger logger;
+
+    private Logger logger;
 
     @Autowired
     public void PasswordGenerator(Logger logger) {
         this.logger = logger;
     }
 
-    public static String generatePassword() {
-        logger.info("Generating password...");
+    public String generatePassword() {
 
         Random random = new Random();
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";

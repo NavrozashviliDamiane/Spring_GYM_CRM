@@ -11,4 +11,3 @@ public interface TraineeDAO {
 
     void delete(Integer id);
 }
-

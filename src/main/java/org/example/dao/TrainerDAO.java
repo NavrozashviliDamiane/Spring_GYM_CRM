@@ -11,4 +11,3 @@ public interface TrainerDAO {
 
     void delete(Integer id);
 }
-

@@ -10,8 +10,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.apache.logging.log4j.Logger;
 
-
-
 @Configuration
 @ComponentScan(basePackages = "org.example")
 @PropertySource("classpath:application.properties")
@@ -27,7 +25,6 @@ public class AppConfig {
         Logger logger = this.logger();
         logger.info("Initializing GymStorage bean...");
         return new GymStorage();
-
     }
 
     @Bean
@@ -72,4 +69,3 @@ public class AppConfig {
         return new TrainingService();
     }
 }
-

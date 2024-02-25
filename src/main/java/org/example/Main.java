@@ -17,10 +17,12 @@ import java.time.LocalDate;
 public class Main {
 
     private final Logger logger;
+    private final GymFacade gymFacade;
 
     @Autowired
-    public Main(Logger logger) {
+    public Main(Logger logger, GymFacade gymFacade) {
         this.logger = logger;
+        this.gymFacade = gymFacade;
     }
 
     public static void main(String[] args) {
@@ -30,14 +32,11 @@ public class Main {
     }
 
     public void run() {
-        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-        GymFacade gymFacade = context.getBean(GymFacade.class);
-
-        Trainer newTrainer = new Trainer("John", "Doe", "Strength Training");
+        Trainer newTrainer = new Trainer("John", "Doe", "Strength Training", 1);
         gymFacade.createTrainer(newTrainer);
-        logger.info("New Trainer created: {}", newTrainer);
+        logger.info("New Trainer created: {}", newTrainer.getPassword());
 
-        Trainer newTrainer2 = new Trainer("John", "Doe", "Strength Training");
+        Trainer newTrainer2 = new Trainer("John", "Doe", "Strength Training", 2);
         gymFacade.createTrainer(newTrainer2);
         logger.info("New Trainer created: {}", newTrainer2);
 

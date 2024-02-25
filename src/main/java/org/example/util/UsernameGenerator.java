@@ -10,17 +10,16 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class UsernameGenerator {
-    private static GymStorage gymStorage;
-
-    private static Logger logger;
 
     @Autowired
-    public void setGymStorage(GymStorage storage, Logger logger) {
-        this.gymStorage = storage;
-        this.logger = logger;
-    }
+    private GymStorage gymStorage;
 
-    public static String generateUsername(String firstName, String lastName, User user) {
+    @Autowired
+    private Logger logger;
+
+
+
+    public String generateUsername(String firstName, String lastName, User user) {
         logger.info("Generating username for user: {} {}", firstName, lastName);
 
         String baseUsername = firstName + "." + lastName;

@@ -1,11 +1,9 @@
 
-X
-java:S2696"6Make the enclosing method "static" or remove this set.(¡ÁıØúÿÿÿÿ8Âİ¢İÜ1
-W
-java:S2209"5Change this instance-reference to a static reference.(¡ÁıØúÿÿÿÿ8®š¥İÜ1
-t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(—Ü­Ÿüÿÿÿÿ8½×ØÜ1
+
+java:S1192*"_Define a constant instead of duplicating this literal "Gym storage is not initialized" 5 times.(Ø·ÏÛúÿÿÿÿ8éá¹…İ1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(ÑÛ¸‹8‘·¬…İ1
 e
-java:S6201"HReplace this instanceof check and cast with 'instanceof Trainer trainer'(í‘ó†8Ã×ØÜ1
+java:S6201"HReplace this instanceof check and cast with 'instanceof Trainer trainer'(í‘ó†8•·¬…İ1
 j
-java:S6201&"HReplace this instanceof check and cast with 'instanceof Trainee trainee'(øúˆúÿÿÿÿ8Ï×ØÜ1
+java:S6201-"HReplace this instanceof check and cast with 'instanceof Trainee trainee'(øúˆúÿÿÿÿ8š·¬…İ1
